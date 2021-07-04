@@ -50,6 +50,28 @@ else{
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
   <title>CodeWithRaja</title>
+
+
+  <style>
+    /* .container-fluid {
+        border: 2px solid black;
+        background-color: #fff;
+    } */
+
+    .nav {
+      /* background-color: darkcyan; */
+    }
+
+    .nav-link {
+      color: black;
+    }
+
+    .nav-link:hover {
+      color: white;
+      background-color: sandybrown;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -62,15 +84,18 @@ else{
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav nav-pills me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+            <a class="nav-link text-white" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="about.php">About us</a>
+            <a class="nav-link text-white" href="about.php">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="https://Rajaraj.com"> Visit Code Smashers</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               Blog
             </a>
@@ -80,11 +105,11 @@ else{
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="blog.php">Others</a></li>
+              <li><a class="dropdown-item" href="https://Rajaraj.com/projects/" target="_blank">Others</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="contact.php">Contact us</a>
+            <a class="nav-link text-white" href="contact.php">Contact us</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -94,6 +119,7 @@ else{
       </div>
     </div>
   </nav>
+
 
   <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride=" carousel">
     <div class="carousel-indicators">
@@ -143,7 +169,7 @@ else{
           <h3 class="mb-0">Latest Blog Post</h3>
           <div class="mb-1 text-muted">Nov 12</div>
           <p class="card-text mb-auto">This Section Contains all Latest Blog Posts.</p>
-          <a href="blog.html" class="stretched-link">Continue reading</a>
+          <a href="https://rajaraj.com" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
           <img src="https://source.unsplash.com/400x250/?ipad" alt="Error Code 404">
@@ -158,7 +184,7 @@ else{
           <div class="mb-1 text-muted">Nov 11</div>
           <p class="mb-auto">This Section Contains all Latest Tech news.
             additional content.</p>
-          <a href="blog.html" class="stretched-link">Continue reading</a>
+          <a href="https://rajaraj.com/Projects/" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
           <img src="https://source.unsplash.com/400x250/?technology" alt="Error Code 404">
@@ -210,8 +236,9 @@ else{
 
   <div class="jumbotron bg-light text-center text-dark">
     <div class="container">
-      <h1 class="display-6"><strong>CODING IS LIFE</strong></h1>
-      <p class="lead" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">On stage at TechCrunch Disrupt in San
+      <h1 class="display-6"><strong style="color: green;">CODING IS LIFE</strong></h1>
+      <p class="lead" style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: blue;">On stage at TechCrunch
+        Disrupt in San
         Francisco, Mark Zuckerberg, Facebook co-founder and CEO,
         says that he still codes sometimes for fun. But there is a rule at Facebook, he says: “If you are checking in
         code, you have to maintain your code.”</p>
@@ -219,7 +246,7 @@ else{
   </div>
 
 
-  <div class="album py-5 bg-light">
+  <!-- <div class="album py-5 bg-light">
     <div class="container-fluid">
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -290,7 +317,7 @@ else{
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 </body>
 
@@ -303,8 +330,7 @@ else{
         </a>
         <ul class="list-unstyled small text-muted">
           <li class="mb-2">Hey Guys This is <abbr title="CEO of Code Smashers">Raja raj</abbr> <a
-              href="https://rajaraj.com/about/"> CEO Of Code Smashers</a> Founder & contributor <a
-              href="https://github.com/Rajaraj1/">our contributors</a>.</li>
+              href="https://rajaraj.com/about/"> CEO Of Code Smashers </a></li>
           <li class="mb-2">Code licensed <a href="https://github.com/Rajaraj1/CodeWithRaja_PHP.git" target="_blank"
               rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/"
               target="_blank" rel="license noopener">CC BY 3.0</a>.</li>
@@ -319,6 +345,7 @@ else{
           <li class="mb-2"><a href="https://Rajaraj.com/projects/">Blog</a></li>
           <li class="mb-2"><a href="contact.php">Contact us</a></li>
           <li class="mb-2"><a href="https://Rajaraj.com">Code Smashers</a></li>
+          <li class="mb-2"><a href="https://github.com/Rajaraj1/">Our Github Page</a>.</li>
         </ul>
       </div>
     </div>
@@ -328,5 +355,6 @@ else{
     <h5>All Rights Reserved.</h5>
   </div>
 </footer>
+
 
 </html>

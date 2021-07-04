@@ -50,6 +50,28 @@ else{
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
     <title>CodeWithRaja</title>
+
+
+    <style>
+        /* .container-fluid {
+        border: 2px solid black;
+        background-color: #fff;
+    } */
+
+        .nav {
+            /* background-color: darkcyan; */
+        }
+
+        .nav-link {
+            color: black;
+        }
+
+        .nav-link:hover {
+            color: white;
+            background-color: sandybrown;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -63,15 +85,18 @@ else{
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav nav-pills me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                        <a class="nav-link text-white" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="about.php">About us</a>
+                        <a class="nav-link text-white" href="about.php">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="https://Rajaraj.com"> Visit Code Smashers</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Blog
                         </a>
@@ -83,11 +108,12 @@ else{
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="blog.php">Others</a></li>
+                            <li><a class="dropdown-item" href="https://Rajaraj.com/projects/" target="_blank">Others</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="contact.php">Contact us</a>
+                        <a class="nav-link text-white" href="contact.php">Contact us</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -97,6 +123,7 @@ else{
             </div>
         </div>
     </nav>
+
 
     <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride=" carousel">
         <div class="carousel-indicators">
@@ -157,7 +184,7 @@ else{
             }
         </style>
         <ul>
-            <p>I AM RAJA RAJ.
+            <p>I AM <a href="https://rajaraj.com/about/" style="text-decoration: none;">RAJA RAJ</a>.
                 <br>
             <p></p>
             I Am A CSE Student In Chandigarh University(CU).
@@ -188,8 +215,7 @@ else{
                 </a>
                 <ul class="list-unstyled small text-muted">
                     <li class="mb-2">Hey Guys This is <abbr title="CEO of Code Smashers">Raja raj</abbr> <a
-                            href="https://rajaraj.com/about/"> CEO Of Code Smashers</a> Founder & contributor <a
-                            href="https://github.com/Rajaraj1/">our contributors</a>.</li>
+                            href="https://rajaraj.com/about/"> CEO Of Code Smashers </a></li>
                     <li class="mb-2">Code licensed <a href="https://github.com/Rajaraj1/CodeWithRaja_PHP.git"
                             target="_blank" rel="license noopener">MIT</a>, docs <a
                             href="https://creativecommons.org/licenses/by/3.0/" target="_blank"
@@ -205,6 +231,7 @@ else{
                     <li class="mb-2"><a href="https://Rajaraj.com/projects/">Blog</a></li>
                     <li class="mb-2"><a href="contact.php">Contact us</a></li>
                     <li class="mb-2"><a href="https://Rajaraj.com">Code Smashers</a></li>
+                    <li class="mb-2"><a href="https://github.com/Rajaraj1/">Our Github Page</a>.</li>
                 </ul>
             </div>
         </div>
